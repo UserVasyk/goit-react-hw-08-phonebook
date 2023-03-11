@@ -8,9 +8,11 @@ export const FormBox = styled.form`
   display: flex;
   flex-direction: column;
   gap: 20px;
+  align-items: center;
+
   border: 2px solid black;
   padding: 15px;
-  max-width: 450px;
+  width: 350px;
   margin-bottom: 20px;
 `;
 export const ButtonSubmit = styled.button`
